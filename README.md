@@ -4,7 +4,7 @@
 
 ![Sample](/Sample.png)
 
-## Features
+## Key Features
 
 - **Comprehensive Metadata Extraction**:
   - File information (size, hashes, timestamps, permissions)
@@ -34,16 +34,35 @@
 
 ## Installation
 
-### Prerequisites
+### Requirements
 - Python 3.8 or higher
 - [ExifTool](https://exiftool.org/) (optional, for enhanced metadata extraction)
 
-### Dependencies
-Install the required Python packages using `pip`:
+### Setup
 
+1.  **Clone the repository** (if you are using Git):
+    ```bash
+    git clone https://github.com/SilverHaze99/DataTrace
+    cd DataTrace
+    ```
+2.  **Create a virtual environment:**
+    ```bash
+    python -m venv venv
+    ```
+3.  **Activate the virtual environment:**
+    * **On Windows:**
+        ```bash
+        .\venv\Scripts\activate
+        ```
+    * **On macOS and Linux:**
+        ```bash
+        source venv/bin/activate
+        ```
+4.  **Install Required Dependencies:** Install the required Python packages using `pip` within the activated virtual environment:
 ```bash
 pip install -r requirements.txt
 ```
+
 
 The `requirements.txt` file includes:
 ```
@@ -56,13 +75,6 @@ openpyxl>=3.0.0
 rarfile>=4.0
 colorama>=0.4.0
 aiofiles>=24.1.0
-```
-
-To create a virtual environment (recommended):
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
 ```
 
 ### ExifTool Installation
@@ -236,4 +248,11 @@ Contributions are welcome! Please:
 5. Open a pull request.
 
 ## License
-This project is licensed under the MIT License.
+This tool is provided as-is for OSINT research and analysis purposes. Users are responsible for ensuring compliance with applicable laws and regulations in their jurisdiction.
+This tool is provided under the MIT-License
+
+---
+
+**DataTrace** - forensic analysis and deep inspection
+
+*Version 2.2*
