@@ -53,6 +53,7 @@ python-docx>=0.8.0
 openpyxl>=3.0.0
 rarfile>=4.0
 colorama>=0.4.0
+aiofiles>=24.1.0
 ```
 
 To create a virtual environment (recommended):
