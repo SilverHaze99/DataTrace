@@ -187,11 +187,11 @@ For an image file (`test.jpg`):
 ============================================================
 
 📋 File Information:
-   Size: 3.8 MB
+   Size: 3.9 MB
    Type: image/jpeg
-   Modified: 2019-02-16T19:02:02
-   MD5: d2575fda33f865f5039942b40bf41580
-   CRC32: b6e73e62
+   Modified: 2018-03-14T16:02:02
+   MD5: d2575fda33f745f5039942b40bf41580
+   CRC32: b6e73e23
 
 🖼️ Image Metadata:
    📐 Dimensions: 4272 x 2848
@@ -200,7 +200,7 @@ For an image file (`test.jpg`):
    📷 EXIF Data found: 53 fields
       📱 Camera Brand: Canon
       📸 Camera Model: Canon EOS 1100D
-      📅 Date Taken: 2019:02:16 19:02:01
+      📅 Date Taken: 2018-03-14T16:02:02
       🔍 Aperture: 10.0
       ⏱️ Shutter Speed: 0.00125
       📊 ISO: 1600
