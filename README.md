@@ -1,3 +1,5 @@
+# DataTrace
+
 **DataTrace** is a powerful command-line tool designed for forensic analysis and deep inspection of file metadata. It extracts comprehensive metadata from various file types, including images, audio files, PDFs, Office documents, and archives, with optional steganography detection and string analysis.
 
 ![Sample](/Sample.png)
